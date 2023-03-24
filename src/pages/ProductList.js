@@ -67,9 +67,9 @@ const ProductList = () => {
 
   return (
     <Container>
-      <Announcements />
       <Navbar />
-      <Title>{cat}</Title>
+      <Announcements />
+      <Title>{cat.replace(/-/, " ").replace(/-/, " ")}</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>

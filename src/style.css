@@ -13,10 +13,14 @@
     text-transform: uppercase;
     font-size: large;
     text-decoration: none;
-    /*color: #eeeded;*/
 }
 
 /* Navbar CSS */
 .shoppingBag {
     color: black;
+}
+
+/* Checkout CSS */
+.checkoutButton {
+    visibility: hidden;
 }

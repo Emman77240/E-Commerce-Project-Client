@@ -18,8 +18,8 @@ const ProductsHeader = styled.h1`
 const Home = () => {
   return (
     <div>
-        <Announcements />
         <Navbar />
+        <Announcements />
         <Slider />
         <Categories />
         <ProductsHeader>Best Buys</ProductsHeader>
