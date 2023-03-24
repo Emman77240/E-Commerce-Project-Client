@@ -22,7 +22,7 @@ const Home = () => {
         <Navbar />
         <Slider />
         <Categories />
-        <ProductsHeader>Products</ProductsHeader>
+        <ProductsHeader>Best Buys</ProductsHeader>
         <Products />
         <Newsletter />
         <Footer />
