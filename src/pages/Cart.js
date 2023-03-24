@@ -107,8 +107,6 @@ const ProductColor = styled.div`
     background-color: ${(props) => props.color};
 `
 
-const ProductSize = styled.span``;
-
 const PriceDetail = styled.div`
     flex: 1;
     display: flex;
