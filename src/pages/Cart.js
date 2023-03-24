@@ -77,6 +77,7 @@ const Product = styled.div`
     @media only screen and (max-width: 380px) {
       flex-direction: column;
     }
+    margin-bottom: 40px;
 `
 
 const ProductDetail = styled.div`
@@ -234,9 +235,6 @@ const Cart = () => {
                       <b>ID:</b> {product._id}
                     </ProductId>
                     <ProductColor color={product.color} />
-                    <ProductSize>
-                      <b>Size:</b> {product.size}
-                    </ProductSize>
                   </Details>
                 </ProductDetail>
                 <PriceDetail>
