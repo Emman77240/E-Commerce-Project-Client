@@ -28,7 +28,7 @@ npm install
 npm start
 ```
 
-2. Once the application is running in your local environment, navigate through the frontend React App to view products and add them to Cart. Checkout can also be completed if desired. The backend Nodejs application can be found [here](https://github.com/Emman77240/E-Commerce-Project/tree/main/server). Both the frontend and the backend applications must be cloned, installed and started in order for their communication to be complete.
+2. Once the application is running in your local environment, navigate through the frontend React App to view products and add them to Cart. Checkout can also be completed if desired. The backend Nodejs application can be found [here](https://github.com/Emman77240/E-Commerce-Project/tree/main/server). Both the frontend and the backend applications must be cloned, installed and started in order for their communication to be complete
 
 
 ## Built With
