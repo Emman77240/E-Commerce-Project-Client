@@ -32,7 +32,7 @@ const Products = ({ cat, filters, sort }) => {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const res = await publicRequest.get(
+        const res = await axios.get(
           cat
             ? `https://earware-api.onrender.com/products?category=${cat}`
             : "https://earware-api.onrender.com/products"
