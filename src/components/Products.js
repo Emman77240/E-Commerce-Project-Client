@@ -2,6 +2,7 @@ import styled from 'styled-components'
 //import { popularProducts } from '../data'
 import Product from './Product'
 import { useEffect, useState } from 'react'
+import { publicRequest } from '../requestMethods'
 import axios from 'axios'
 
 
@@ -31,7 +32,7 @@ const Products = ({ cat, filters, sort }) => {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const res = await axios.get(
+        const res = await publicRequest.get(
           cat
             ? `https://earware-api.onrender.com/products?category=${cat}`
             : "https://earware-api.onrender.com/products"
