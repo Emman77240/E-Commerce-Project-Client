@@ -34,8 +34,8 @@ const Products = ({ cat, filters, sort }) => {
       try {
         const res = await publicRequest.get(
           cat
-            ? `https://earware-api.onrender.com/products?category=${cat}`
-            : "https://earware-api.onrender.com/products"
+            ? `https://earware-api.onrender.com/api/products?category=${cat}`
+            : "https://earware-api.onrender.com/api/products"
         );
         setProducts(res.data);
       } catch (err) {}
